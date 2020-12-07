@@ -1,8 +1,7 @@
-package com.ssx.entity;
+package com.ssx.domain;
 
 /**
- * 返回页面对象
- * @param <T>
+ * Created by macro on 2019/8/29.
  */
 public class CommonResult<T> {
     private T data;

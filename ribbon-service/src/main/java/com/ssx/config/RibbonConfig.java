@@ -6,20 +6,14 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * 配置类
+ * Created by macro on 2019/8/29.
  */
 @Configuration
 public class RibbonConfig {
 
-    /**
-     * 注册类
-     * @return
-     */
     @Bean
     @LoadBalanced
     public RestTemplate restTemplate(){
         return new RestTemplate();
     }
 }
-
-
