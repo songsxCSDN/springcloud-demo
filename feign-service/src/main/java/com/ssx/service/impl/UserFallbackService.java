@@ -1,8 +1,9 @@
 package com.ssx.service.impl;
 
-import com.macro.cloud.domain.CommonResult;
-import com.macro.cloud.domain.User;
-import com.macro.cloud.service.UserService;
+
+import com.ssx.entity.CommonResult;
+import com.ssx.entity.User;
+import com.ssx.service.UserService;
 import org.springframework.stereotype.Component;
 
 /**

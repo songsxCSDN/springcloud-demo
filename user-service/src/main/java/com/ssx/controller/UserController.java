@@ -8,9 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- * Created by macro on 2019/8/29.
- */
+
 @RestController
 @RequestMapping("/user")
 public class UserController {
