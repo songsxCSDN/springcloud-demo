@@ -3,9 +3,18 @@ server:
 spring:
   application:
     name: user-service
+  profiles:
+    active: dev
 eureka:
   client:
     register-with-eureka: true
     fetch-registry: true
     service-url:
       defaultZone: http://localhost:8001/eureka/
+
+mybatis:
+  typeAliasesPackage: com.ssx.entity
+  mapperLocations: classpath:mapper/*.xml
+
+
+
